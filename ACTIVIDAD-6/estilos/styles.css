@@ -1,0 +1,181 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+}
+
+header h1 {
+    float: left;
+    font-size: 36px;
+}
+
+header h1 span {
+    font-size: 14px;
+    display: block;
+}
+
+nav {
+    float: right;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-left: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+nav ul li a.active,
+nav ul li a:hover {
+    background-color: #666;
+}
+
+.hero {
+    background-color: #666;
+    padding: 40px 0;
+    color: #fff;
+    text-align: center;
+}
+
+.hero-content {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.hero-image {
+    display: block;
+    margin: 5px;
+    max-width: 300px; 
+    height: auto;
+    border-radius: 10px;
+}
+
+.hero h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #ffcc00;
+    color: #333;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.welcome {
+    background-color: #fff;
+    padding: 40px 0;
+    text-align: center;
+}
+
+.welcome h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.welcome ul {
+    list-style: disc;
+    margin: 20px 0;
+    padding: 0;
+}
+
+.welcome ul li {
+    text-align: left;
+    margin: 10px 0;
+}
+
+.latest-news {
+    background-color: #f9f9f9;
+    padding: 20px 0;
+    text-align: left;
+}
+
+.latest-news h3 {
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.news-item {
+    margin-bottom: 20px;
+}
+
+.news-item h4 {
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+}
+
+.footer-section {
+    width: 20%;
+    float: left;
+    padding: 0 20px;
+}
+
+.footer-section h4 {
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+.footer-section ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.footer-section ul li {
+    margin-bottom: 10px;
+}
+
+.footer-section ul li a {
+    text-decoration: none;
+    color: #ccc;
+}
+
+.footer-section ul li a:hover {
+    color: #fff;
+}
+
+.footer-bottom {
+    text-align: center;
+    padding: 10px 0;
+    background-color: #333;
+    color: #fff;
+    clear: both;
+}
+
+footer .container::after {
+    content: "";
+    display: table;
+    clear: both;
+}
